@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.speertechnologiesassessmentsolution.presentation.fragments.HomeFragment"
+        android:label="Github User Search"
+        tools:layout="@layout/fragment_home" >
+
+    <argument
+        android:name="ShowAppBar"
+        android:defaultValue="false" />
+        <action
+            android:id="@+id/action_homeFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <activity
+        tools:layout="@layout/activity_main"
+        android:id="@+id/mainActivity"
+        android:name="com.example.speertechnologiesassessmentsolution.presentation.activity.MainActivity"
+        android:label="MainActivity" />
+    <fragment
+
+        tools:layout="@layout/fragment_list"
+        android:id="@+id/listFragment"
+        android:name="com.example.speertechnologiesassessmentsolution.presentation.fragments.ListFragment"
+        android:label="All {intent}" >
+        <argument
+            android:name="username"
+            app:argType="string" />
+        <argument
+            android:name="intent"
+            app:argType="string" />
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="false" />
+        <action
+            android:id="@+id/action_listFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        tools:layout="@layout/fragment_profile"
+        android:id="@+id/profileFragment"
+        android:name="com.example.speertechnologiesassessmentsolution.presentation.profile.ProfileFragment"
+        android:label="{username} Profile" >
+        <argument
+            android:name="username"
+            app:argType="string" />
+
+
+        <argument
+            android:name="ShowAppBar"
+            android:defaultValue="true" />
+        <action
+            android:id="@+id/action_profileFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+
+    </fragment>
+
+</navigation>

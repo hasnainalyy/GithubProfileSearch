@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GitHub Profile Search</string>
+    <string name="search_by_username">Search by username</string>
+    <string name="followers">FOLLOWERS</string>
+    <string name="following">FOLLOWING</string>
+    <string name="not_found">Not Found</string>
+
+</resources>

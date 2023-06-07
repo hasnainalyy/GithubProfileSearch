@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:visibility="gone"
+        android:id="@+id/shimmerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+            <include layout="@layout/list_placeholder_layout"/>
+
+
+        </LinearLayout>
+
+
+
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <TextView
+        android:id="@+id/txtNoResults"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/s18"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="visible"
+        app:stackFromEnd="true"
+        app:reverseLayout="true"
+        android:id="@+id/rvFollwers"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:overScrollMode="never"
+        tools:listitem="@layout/item_follower"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>

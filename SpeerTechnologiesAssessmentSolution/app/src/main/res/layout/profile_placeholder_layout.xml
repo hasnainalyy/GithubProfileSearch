@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="@dimen/x200">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="@dimen/x16"
+            android:layout_marginStart="@dimen/x16"
+            android:layout_marginEnd="@dimen/x8"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_marginVertical="@dimen/x16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:layout_width="@dimen/x60"
+                    android:layout_height="@dimen/x60"
+                    android:alpha="0.2"
+                    android:background="@color/gray" />
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/x16"
+                    android:layout_marginEnd="@dimen/x8"
+                    android:orientation="vertical">
+
+                    <View
+
+                        android:background="?attr/dividerHorizontal"
+                    android:layout_marginBottom="@dimen/x4"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x12"
+                        />
+
+                    <View
+
+                        android:background="?attr/dividerHorizontal"
+
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x12"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <View
+
+                android:background="?attr/dividerHorizontal"
+
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/x12"
+                />
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginTop="@dimen/x16"
+
+                android:weightSum="2"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false">
+
+                <LinearLayout
+                    android:id="@+id/llFollowers"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <View
+
+                        android:background="?attr/dividerHorizontal"
+                        android:layout_marginHorizontal="@dimen/x40"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x12"
+                        />
+                    <View
+                        android:layout_marginTop="@dimen/x8"
+                        android:background="?attr/dividerHorizontal"
+                        android:layout_marginHorizontal="@dimen/x40"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x12"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llFollowing"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <View
+
+                        android:background="?attr/dividerHorizontal"
+                        android:layout_marginHorizontal="@dimen/x40"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x12"
+                        />
+                    <View
+                        android:layout_marginTop="@dimen/x8"
+                        android:background="?attr/dividerHorizontal"
+                        android:layout_marginHorizontal="@dimen/x40"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/x12"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Multipliers  -->
+
+
+    <dimen name="x1">1dp</dimen>
+    <dimen name="x2">2dp</dimen>
+    <dimen name="x4">4dp</dimen>
+    <dimen name="x5">5dp</dimen>
+    <dimen name="x6">6dp</dimen>
+    <dimen name="x8">8dp</dimen>
+    <dimen name="x10">10dp</dimen>
+    <dimen name="x12">12dp</dimen>
+    <dimen name="x14">14dp</dimen>
+    <dimen name="x15">15dp</dimen>
+    <dimen name="x16">16dp</dimen>
+    <dimen name="x18">18dp</dimen>
+    <dimen name="x20">20dp</dimen>
+    <dimen name="x21">21dp</dimen>
+    <dimen name="x24">24dp</dimen>
+    <dimen name="x25">25dp</dimen>
+    <dimen name="x26">26dp</dimen>
+    <dimen name="x28">28dp</dimen>
+    <dimen name="x30">30dp</dimen>
+    <dimen name="x32">32dp</dimen>
+    <dimen name="x35">35dp</dimen>
+    <dimen name="x36">36dp</dimen>
+    <dimen name="x38">38dp</dimen>
+    <dimen name="x40">40dp</dimen>
+    <dimen name="x48">48dp</dimen>
+    <dimen name="x50">50dp</dimen>
+    <dimen name="x53">53dp</dimen>
+    <dimen name="x55">55dp</dimen>
+    <dimen name="x58">58dp</dimen>
+    <dimen name="x60">60dp</dimen>
+    <dimen name="x64">64dp</dimen>
+    <dimen name="x65">65dp</dimen>
+    <dimen name="x71">71dp</dimen>
+    <dimen name="x73">73dp</dimen>
+    <dimen name="x75">75dp</dimen>
+    <dimen name="x80">80dp</dimen>
+    <dimen name="x91">91dp</dimen>
+    <dimen name="x100">100dp</dimen>
+    <dimen name="x103">103dp</dimen>
+    <dimen name="x110">110dp</dimen>
+    <dimen name="x131">131dp</dimen>
+    <dimen name="x150">150dp</dimen>
+    <dimen name="x160">160dp</dimen>
+    <dimen name="x250">250dp</dimen>
+    <dimen name="x300">300dp</dimen>
+
+
+    <dimen name="s10">10sp</dimen>
+    <dimen name="s11">11sp</dimen>
+    <dimen name="s12">12sp</dimen>
+    <dimen name="s14">14sp</dimen>
+    <dimen name="s15">15sp</dimen>
+    <dimen name="s16">16sp</dimen>
+    <dimen name="s18">18sp</dimen>
+    <dimen name="s20">20sp</dimen>
+    <dimen name="s22">22sp</dimen>
+    <dimen name="s24">24sp</dimen>
+    <dimen name="s25">25sp</dimen>
+    <dimen name="s32">32sp</dimen>
+    <dimen name="x200">200dp</dimen>
+    <dimen name="x180">180dp</dimen>
+    <dimen name="x220">220dp</dimen>
+    <dimen name="x140">140dp</dimen>
+    <dimen name="x260">260dp</dimen>
+    <dimen name="x240">240dp</dimen>
+    <dimen name="x120">120dp</dimen>
+    <dimen name="x45">45dp</dimen>
+
+</resources>
